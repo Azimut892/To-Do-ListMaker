@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <meta charset="UTF-8">
+        <title>To-Do List</title>
+    </head>
+    <body>
+        <div>
+            <h1 class="text">What do you want to add to your to do list?</h1>
+            <ul id="list">
+            </ul>
+            <div class="input-container">
+                <input type="text" id="todo" placeholder="Your To-Do" required>
+                <div class="button-container">
+                    <button id="addButton" type="submit">Add</button>
+                    <button id="clearButton" type="reset">Clear</button>
+                    <button id="deleteButton" type="submit">Delete Task</button>
+                </div>
+            </div>
+        </div>
+        <div id="errorContainer"></div>
+        <script src="todojavascript.js"></script>
+    </body>
+</html>
